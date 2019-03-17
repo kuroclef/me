@@ -1,0 +1,15 @@
+<svg width="640" height="1136" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="shadow">
+      <feOffset in="SourceAlpha" dx="4" dy="4" result="offset"/>
+      <feGaussianBlur in="offset" stdDeviation="6" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur"/>
+    </filter>
+  </defs>
+
+  <rect width="640" height="1136" fill="#002b36"/>
+
+  <image x="-250" y="100" width="1200" height="2000" filter="url(#shadow)"
+         xlink:href="/home/kuroclef/software/me/winter_large.png"/>
+</svg>

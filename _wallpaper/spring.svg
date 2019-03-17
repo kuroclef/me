@@ -1,0 +1,15 @@
+<svg width="1920" height="1080" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="shadow">
+      <feOffset in="SourceAlpha" dx="4" dy="4" result="offset"/>
+      <feGaussianBlur in="offset" stdDeviation="6" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#002b36"/>
+
+  <image x="840" y="60" width="600" height="1000" filter="url(#shadow)"
+         xlink:href="/home/kuroclef/software/me/spring.png"/>
+</svg>
